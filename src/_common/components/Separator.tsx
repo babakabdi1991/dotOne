@@ -13,7 +13,7 @@ export default function Separator({
     <div className="mb-[4rem]" style={{ direction: "rtl" }}>
       <p style={{ lineHeight: "5px" }}>{title}</p>
       <div className={`flex  gap-1.5 mb-[1rem]`}>
-        <img src="/public/icons/Separator.svg" alt="separator icon" />
+        <img src="/icons/Separator.svg" alt="separator icon" />
         <p className="text-[#939393] text-[1.4rem]" style={{ fontWeight: 300 }}>
           {description}
         </p>

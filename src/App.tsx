@@ -19,7 +19,7 @@ function App() {
         >
           <header className="absolute top-[1.4rem] right-[5.4rem] left-[5.4rem] bg-white/30 px-[5rem] py-[1rem] mx-[5rem] text-black p-4 rounded-[2rem]">
             <nav className="flex justify-between items-center">
-              <img src="/public/icons/logo.svg" alt="icon" />
+              <img src="/icons/logo.svg" alt="icon" />
               <ul className="flex justify-between items-center gap-[5rem] text-[1.4rem]">
                 <li>درباره ما</li>
                 <li>وبلاگ</li>
