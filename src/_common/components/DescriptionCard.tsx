@@ -2,8 +2,8 @@ export default function DescriptionCard() {
   return (
     <div className="flex-col content-center  rounded-[2.4rem] bg-white p-[2.4rem]">
       <img
-        src="/public/icons/description.svg"
-        alt="Play icon"
+        src="/icons/description.svg"
+        alt="activity icon"
         className="w-50 h-50 m-auto mb-[2.4rem]"
       />
       <p className="text-[1.4rem] text-black opacity-60">
