@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  * {
+    font-family: "vazir";
+  }
+}
+
+body {
+  height: 100%;
+  direction: rtl;
+}
+
+.custom-scrollbar {
+  overflow-y: auto;
+  scrollbar-gutter: stable both-edges;
+  padding-left: 10px;
+  direction: ltr;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: #939393;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #939393;
+}
+
+.custom-scrollbar {
+  scrollbar-width: auto;
+  scrollbar-color: #939393 #fff;
+}
+
+.custom-scrollbar {
+  position: relative;
+}
+
+.custom-scrollbar::before,
+.custom-scrollbar::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 12px; /* same as scrollbar width */
+  height: 12px; /* cover arrow button */
+  background: #fff; /* same as your component background */
+  z-index: 1;
+}
+
+.custom-scrollbar::before {
+  top: 0;
+}
+.custom-scrollbar::after {
+  bottom: 0;
+}
